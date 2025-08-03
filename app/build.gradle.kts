@@ -39,7 +39,7 @@ task("downloadGeoFiles") {
         "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat" to "geosite.dat",
         // "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country.mmdb" to "country.mmdb",
         "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/GeoLite2-ASN.mmdb" to "ASN.mmdb",
-        "https://github.com/vernesong/mihomo/releases/download/LightGBM-Model/model-large.bin" to " model-large.bin",
+        "https://github.com/vernesong/mihomo/releases/download/LightGBM-Model/model-large.bin" to "model-large.bin",
     )
 
     doLast {
